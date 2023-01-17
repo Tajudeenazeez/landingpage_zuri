@@ -3,12 +3,7 @@ import logo2 from "../assets/images/ingresive.jpg";
 import wire2 from "../assets/images/section3wire.svg";
 import wire3 from "../assets/images/section5wire.svg";
 
-import curve from "../assets/images/curve1.png";
-import curve2 from "../assets/images/curve2.svg";
-import curve3 from "../assets/images/curve3b.svg";
-import curve4 from "../assets/images/curve4.svg";
-import curve5 from "../assets/images/curve5.svg";
-import curve6 from "../assets/images/curve6.svg";
+
 
 // import hand from '../assets/images/time.png'
 // import hand2 from '../assets/images/round.svg'
@@ -27,13 +22,15 @@ import Programs from "../components/Programs";
 import Button from "../components/Button";
 import Faqs from "../components/Faqs";
 import { Course } from "../components/Course";
+import WhyUs from "../components/WhyUs";
+import Advertise from "../components/Advertise";
 
 const Home = () => {
   return (
     <div>
       <main>
         <div className="md:flex md:justify-evenly md:w-full my-4 mx-auto  border border-y-gray-300  p-4 text-center bg-white border-x-[white]">
-          <div className="flex justify-center items-center md:w-1/3">
+          <div id='about' className="flex justify-center items-center md:w-1/3">
             <p className="font-medium text-2xl">
               INGRESSIVE FOR GOOD WAS LAUNCHED IN JULY 2020 WITH NO DOLLAR IN
               DONATION...
@@ -56,7 +53,7 @@ const Home = () => {
           <div>
             <img className="mx-auto w-16" src={wire2} alt="arrow" />
           </div>
-          <div>
+          <div id="why-us">
             <p className="bg-[#3a2350] max-w-max text-white text-lg p-2 my-4">
               Why Zuri Training?
             </p>
@@ -70,100 +67,9 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section>
-        <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4 text-white text-4xl items-center">
-          <div className="relative hover:-translate-y-2">
-            <div className=" h-[345px]  rounded-3xl m-6 bg-[#3a2350]">
-              <h1 className="font-bold p-8 leading-6">01</h1>
-              <h3 className="pl-8 py-4 font-semibold text-2xl w-1/2">
-                Fully remote
-              </h3>
-              <p className="pl-8 py-4 w-3/4 text-lg">
-                100% online classes available to everyone in the world
-              </p>
-            </div>
-            <div className="absolute top-6 right-6">
-              <img className="w-32 h-32 " src={curve} alt="curve1" />
-            </div>
-          </div>
-          {/* second */}
-          <div className="relative hover:-translate-y-2">
-            <div className=" h-[345px]  rounded-3xl text-black shadow-[0px_11px_35px_4px_rgba(0,0,0,0.36)] m-6 bg-white">
-              <h1 className="font-bold p-8 leading-6">02</h1>
-              <h3 className="pl-8 py-4 font-semibold text-2xl w-1/2">
-                Fully remote
-              </h3>
-              <p className="pl-8 py-4 w-3/4 text-lg">
-                100% online classes available to everyone in the world
-              </p>
-            </div>
-            <div className="absolute top-6 right-6">
-              <img className="w-32 h-32 " src={curve2} alt="curve1" />
-            </div>
-          </div>
-          {/* third */}
-          <div className="relative hover:-translate-y-2">
-            <div className=" h-[345px]  rounded-3xl text-black shadow-[0px_11px_35px_4px_rgba(0,0,0,0.36)] m-6 bg-[#3a2350]">
-              <h1 className="font-bold p-8 leading-6">03</h1>
-              <h3 className="pl-8 py-4 font-semibold text-2xl w-1/2">
-                Fully remote
-              </h3>
-              <p className="pl-8 py-4 w-3/4 text-lg">
-                100% online classes available to everyone in the world
-              </p>
-            </div>
-            <div className="absolute top-6 right-6">
-              <img className=" w-32 h-32 " src={curve3} alt="curve3" />
-            </div>
-          </div>
-          {/* fourth */}
-          <div className="relative hover:-translate-y-2">
-            <div className=" h-[345px]  rounded-3xl text-black shadow-[0px_11px_35px_4px_rgba(0,0,0,0.36)] m-6 ">
-              <h1 className="font-bold p-8 leading-6">04</h1>
-              <h3 className="pl-8 py-4 font-semibold text-2xl w-1/2">
-                Fully remote
-              </h3>
-              <p className="pl-8 py-4 w-3/4 text-lg">
-                100% online classes available to everyone in the world
-              </p>
-            </div>
-            <div className="absolute top-6 right-6">
-              <img className="w-32 h-32 " src={curve4} alt="curve4" />
-            </div>
-          </div>
-          {/* fifth */}
-          <div className="relative hover:-translate-y-2">
-            <div className=" h-[345px]  rounded-3xl text-black shadow-[0px_11px_35px_4px_rgba(0,0,0,0.36)] m-6 bg-[#3a2350]">
-              <h1 className="font-bold p-8 leading-6">05</h1>
-              <h3 className="pl-8 py-4 font-semibold text-2xl w-1/2">
-                Fully remote
-              </h3>
-              <p className="pl-8 py-4 w-3/4 text-lg">
-                100% online classes available to everyone in the world
-              </p>
-            </div>
-            <div className="absolute top-6 right-6">
-              <img className=" w-32 h-32 " src={curve5} alt="curve1" />
-            </div>
-          </div>
-          {/* sixth */}
-          <div className="relative hover:-translate-y-2">
-            <div className=" h-[345px]  rounded-3xl text-black shadow-[0px_11px_35px_4px_rgba(0,0,0,0.36)] m-6 bg-[#3a2350]">
-              <h1 className="font-bold p-8 leading-6">06</h1>
-              <h3 className="pl-8 py-4 font-semibold text-2xl w-1/2">
-                Fully remote
-              </h3>
-              <p className="pl-8 py-4 w-3/4 text-lg">
-                100% online classes available to everyone in the world
-              </p>
-            </div>
-            <div className="absolute top-6 right-6">
-              <img className=" w-32 h-32 " src={curve6} alt="curve1" />
-            </div>
-          </div>
-        </div>
-      </section>
-      <article className="bg-[#3a2350] w-full h-[250vh] lg:h-[175vh] mt[4rem] relative ">
+    {/* why us */}
+    <WhyUs/>
+      <article className="bg-[#3a2350] w-full h-[200vh] lg:h-[175vh] mt[4rem] relative ">
         <div className="md:w-[40rem] md:mx-auto lg:m-2 lg:w-full">
           <div>
             <img className="mx-auto pt-4 " src={wire3} alt="" />
@@ -184,7 +90,7 @@ const Home = () => {
               Enrol Now
             </button>
           </div>
-          <div className="grid grid-cols-2 h-[16rem] justify-evenly  w-[30rem]  gap-4 m-6 shrink">
+          <div className="grid grid-cols-2 h-[16rem]  justify-evenly w-[20rem] md:w-[30rem]  gap-4 m-6 ">
             <button className="flex items-center  h-3/4 p-4 rounded-full  h-[4rem] border-2 border-[white] text-white p-2 shrink">
               <img src={hand} className="h-12 pr-4" alt="alo1" />
               Enrol Now
@@ -210,7 +116,7 @@ const Home = () => {
             />
           </div>
           <div>
-            <img src={dot} alt="dot" />
+            <img src={dot} className='w-24' alt="dot" />
           </div>
         </div>
       </article>
@@ -220,6 +126,10 @@ const Home = () => {
       </div>
       <Faqs />
       <Course/>
+      <Advertise/>
+      
+      
+
     </div>
   );
 };

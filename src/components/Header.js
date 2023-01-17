@@ -4,7 +4,7 @@ import thumbs from "../assets/images/thumbs.png";
 import Button from "./Button";
 const Header = () => {
   return (
-    <div className="z-40 flex justify-evenly md:justify-between px-4 items-center w-full pt-4  fixed top-0 right-0 left-0 bg-white">
+    <div className="z-40 flex justify-evenly md:justify-between px-4 items-center w-screen pt-4  md:fixed top-0 right-0 left-0 bg-white">
       <div>
         <img className=" w-[315px] h-[54px] shrink-0" src={logo} alt="logo" />
       </div>
