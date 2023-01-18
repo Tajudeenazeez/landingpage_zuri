@@ -120,7 +120,7 @@ const Home = () => {
           </div>
         </div>
       </article>
-      {/* <Programs /> */}
+      <Programs />
       <div className="flex justify-center my-20">
         <Button />
       </div>
