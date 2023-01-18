@@ -43,7 +43,7 @@ const WhyUs = () => {
           </div>
           {/* third */}
           <div className="relative hover:-translate-y-2">
-            <div className=" h-[345px]  rounded-3xl text-black shadow-[0px_11px_35px_4px_rgba(0,0,0,0.36)] m-6 bg-[#3a2350]">
+            <div className=" h-[345px]  rounded-3xl text-black shadow-[0px_11px_35px_4px_rgba(0,0,0,0.36)] m-6 bg-white">
               <h1 className="font-bold p-8 leading-6">03</h1>
               <h3 className="pl-8 py-4 font-semibold text-2xl w-1/2">
                 Fully remote
@@ -73,7 +73,7 @@ const WhyUs = () => {
           </div>
           {/* fifth */}
           <div className="relative hover:-translate-y-2">
-            <div className=" h-[345px]  rounded-3xl text-black shadow-[0px_11px_35px_4px_rgba(0,0,0,0.36)] m-6 bg-[#3a2350]">
+            <div className=" h-[345px]  rounded-3xl text-black shadow-[0px_11px_35px_4px_rgba(0,0,0,0.36)] m-6 bg-white">
               <h1 className="font-bold p-8 leading-6">05</h1>
               <h3 className="pl-8 py-4 font-semibold text-2xl w-1/2">
                 Fully remote
@@ -88,7 +88,7 @@ const WhyUs = () => {
           </div>
           {/* sixth */}
           <div className="relative hover:-translate-y-2">
-            <div className=" h-[345px]  rounded-3xl text-black shadow-[0px_11px_35px_4px_rgba(0,0,0,0.36)] m-6 bg-[#3a2350]">
+            <div className=" h-[345px]  rounded-3xl text-black shadow-[0px_11px_35px_4px_rgba(0,0,0,0.36)] m-6 bg-white">
               <h1 className="font-bold p-8 leading-6">06</h1>
               <h3 className="pl-8 py-4 font-semibold text-2xl w-1/2">
                 Fully remote

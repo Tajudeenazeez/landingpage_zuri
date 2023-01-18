@@ -22,14 +22,14 @@ const Programs = () => {
   return (
     <div>
       <div>
-        <div className="text-3xl   w-full md:w-1/3 md:leading-[3rem] m-4 p-2">
-          <p className="text-purple-600 my-4">Scope of Program</p>
-          <p className="font-semibold leading-[3rem]">
+        <div className=" flex flex-col mx-[4rem] mt-[2rem] ">
+          <p className="text-purple-600 text-2xl">Scope of Program</p>
+          <p className="font-semibold leading-[3rem] text-2xl xl:text-[3rem]">
             Here is the list of prgram that will be explore during the program
           </p>
         </div>
         <div className="flex justify-center">
-          <img className="mx-4 px-4" src={wire6} alt="scope1" />
+          <img className="mx-4 px-4 w-[10rem]" src={wire6} alt="scope1" />
         </div>
       </div>
       {/* article */}

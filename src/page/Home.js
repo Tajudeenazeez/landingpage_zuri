@@ -40,7 +40,7 @@ const Home = () => {
             <img className=" shrink-0" src={logo2} alt="logo" />
           </div>
           <div className="flex justify-center items-center md:w-1/4 md:text-xl p-2">
-            <p className="text-end">
+            <p className="text-right">
               to help increase the earning power of African youths by providing
               them with tech skills, community, tools, resources, and jobs...{" "}
               <button className="text-[#3a2350]"> Read more</button>
@@ -69,10 +69,10 @@ const Home = () => {
       </section>
     {/* why us */}
     <WhyUs/>
-      <article className="bg-[#3a2350] w-full h-[200vh] lg:h-[175vh] mt[4rem] relative ">
+      <article className="bg-[#3a2350] w-full h-[200vh] lg:h-[175vh]  relative ">
         <div className="md:w-[40rem] md:mx-auto lg:m-2 lg:w-full">
-          <div>
-            <img className="mx-auto pt-4 " src={wire3} alt="" />
+          <div className="flex justify-end ">
+            <img className=" mt-8 mr-[8rem] w-[6rem]" src={wire3} alt="" />
           </div>
           <div className="text-white text-lg ">
             <p className="px-8 ">We will help you get started</p>
@@ -120,16 +120,13 @@ const Home = () => {
           </div>
         </div>
       </article>
-      <Programs />
+      {/* <Programs /> */}
       <div className="flex justify-center my-20">
         <Button />
       </div>
       <Faqs />
       <Course/>
       <Advertise/>
-      
-      
-
     </div>
   );
 };
