@@ -11,7 +11,7 @@ import Advertise from "./components/Advertise";
 
 function App() {
   return (
-    <div className=" border border-[red] font-graphik bg-[rgba(80,56,121,0.03)] overflow-x-hidden">
+    <div className="font-graphik bg-[rgba(80,56,121,0.03)] overflow-x-hidden">
        <Header/>       
        <Banner/>
        {/* <WhyUs/> */}
