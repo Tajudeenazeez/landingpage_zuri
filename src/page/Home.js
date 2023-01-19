@@ -89,26 +89,26 @@ const Home = () => {
             </button>
           </div>
           <div className="grid grid-cols-2   justify-evenly w-full md:w-[40rem]    ">
-            <button className=" m-4 p-2 border-box flex items-center justify-evenly w-[15rem]  rounded-full  border-2 border-[white] text-white  shrink">
+            <button className=" m-4 p-2 border-box flex items-center justify-evenly md:w-[15rem]  rounded-full  border-2 border-[white] text-white  shrink">
               <img src={hand} className=" "  alt="alo1" />
               Enrol Now
             </button>
-            <button className=" m-4 p-2 border-box flex items-center justify-evenly w-[15rem]  rounded-full  border-2 border-[white] text-white  shrink">
+            <button className=" m-4 p-2 border-box flex items-center justify-evenly md:w-[15rem]  rounded-full  border-2 border-[white] text-white  shrink">
               <img src={hand2} className=" " alt="alo12" />
               Enrol Now
             </button>
-            <button className=" m-4 p-2 border-box flex items-center justify-evenly w-[15rem]  rounded-full  border-2 border-[white] text-white  shrink">
+            <button className=" m-4 p-2 border-box flex items-center justify-evenly md:w-[15rem]  rounded-full  border-2 border-[white] text-white  shrink">
               <img src={hand2} className=" " alt="alo13" />
               Enrol Now
             </button>
-            <button className="  m-4 p-2 border-box flex items-center justify-evenly w-[15rem]  rounded-full  border-2 border-[white] text-white  shrink">
+            <button className="  m-4 p-2 border-box flex items-center justify-evenly md:w-[15rem]  rounded-full  border-2 border-[white] text-white  shrink">
               <img src={hand4} className=" " alt="alo14" />
               Enrol Now
             </button>
           </div>
           <div>
             <img
-              className="w-full h-[25rem] mx-auto lg:w-1/2 lg:absolute top-16 right-16"
+              className="w-full h-[25rem] xl:h-[35rem] mx-auto lg:w-1/2 lg:absolute top-16 right-16"
               src={girl}
               alt="shopping"
             />
