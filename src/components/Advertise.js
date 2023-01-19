@@ -14,8 +14,8 @@ const Advertise = () => {
          </div>
          <div className="text-white text-3xl text-center m-4">
             <p className="my-4">Get started</p>
-              <h1 className="font-semibold  xl:text-[5rem] align-center leading-[3rem]">Break into tech industry like a pro</h1>
-              <button className=" my-8 w-40 h-11 rounded-full bg-white text-[#3a2350] p-2 shrink-0">
+              <h1 className="font-semibold  xl:text-[5rem] xl:mx-[20rem] align-center xl:leading-[4.8rem]">Break into tech industry like a pro</h1>
+              <button className=" my-8 w-40 h-11 rounded-full bg-white text-lg text-[#3a2350] p-2 shrink-0">
               Enrol Now
             </button>
          </div>

@@ -7,3 +7,6 @@
 /* bg-[#3a2350] */
 /* [#3a235922] */
 
+* {
+    box-sizing: border-box !important;
+}

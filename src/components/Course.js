@@ -51,13 +51,13 @@ export const Course = () => {
             alt="cup"
           />
         </div>
-        <div className="relative mb-14 align-center bg-[#3a2350] shadow-[0px_11px_35px_4px_rgba(53,35,80,0.42)] rounded-[3rem] font-semibold text-white  py-[3rem] px-[5rem]">
-          <h1 className="text-3xl font-semibold  py-4">Available Courses</h1>
+        <div className="relative mb-14 align-center bg-[#3a2350] shadow-[0px_11px_35px_4px_rgba(53,35,80,0.42)] rounded-[3rem] font-semibold text-white py-8 px-8 lg:py-[3rem] lg:px-[5rem]">
+          <h1 className="text-3xl font-semibold py-4">Available Courses</h1>
           <p className="py-2">
             Requires at least 25 hours weekly on program content.
           </p>
-          <h3 className="py-2 ">Available Courses</h3>
-          <ul className="list-disc  py-4">
+          <h3 className="py-2">Available Courses</h3>
+          <ul className="list-disc  py-2">
             <li>Frontend</li>
             <li>Backend</li>
             <li>Python</li>
@@ -66,7 +66,7 @@ export const Course = () => {
             <li>UI/UX</li>
           </ul>
           <p className="py-2">The following course combination are allowed</p>
-          <ul className="list-disc  py-4">
+          <ul className="list-disc  py-2">
             <li>lorem Ipsom course</li>
             <li>lorem Ipsom course</li>
             <li>lorem Ipsom course</li>
@@ -78,8 +78,8 @@ export const Course = () => {
             for this cohort.
           </p>
           <img
-            src={time}
-            className="z-10 absolute right-10 bottom-12 w-40"
+            src={hour}
+            className="z-10 absolute right-10 bottom-12 w-24"
             alt="cup"
           />
         </div>
