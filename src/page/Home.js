@@ -28,7 +28,6 @@ import Advertise from "../components/Advertise";
 const Home = () => {
   return (
     <div>
-      <main>
         <div className="md:flex md:justify-evenly md:w-full my-4 mx-auto  border border-y-gray-300  p-4 text-center bg-white border-x-[white]">
           <div id='about' className="flex justify-center items-center md:w-1/3">
             <p className="font-medium text-2xl">
@@ -47,8 +46,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-      </main>
-      <section className="p-4 m-2">
+        <section className="p-4 m-2">
         <div className="mx-4">
           <div>
             <img className="mx-auto w-16" src={wire2} alt="arrow" />
@@ -69,7 +67,7 @@ const Home = () => {
       </section>
     {/* why us */}
     <WhyUs/>
-      <article className="bg-[#3a2350] w-full h-[200vh] lg:h-[175vh]  relative ">
+      <article className="bg-[#3a2350] w-full  h-[200vh] lg:h-[175vh]  relative ">
         <div className="md:w-[40rem] md:mx-auto lg:m-2 lg:w-full">
           <div className="flex justify-end ">
             <img className=" mt-8 mr-[8rem] w-[6rem]" src={wire3} alt="" />
@@ -85,32 +83,32 @@ const Home = () => {
               you are now ready to continue learning and growing independently.
             </p>
           </div>
-          <div className="ml-[3rem]">
+          <div className="ml-[3rem]  ">
             <button className="w-40 h-11 rounded-full bg-white text-[#3a2350] p-2 shrink-0">
               Enrol Now
             </button>
           </div>
-          <div className="grid grid-cols-2 h-[16rem]  justify-evenly w-[20rem] md:w-[30rem]  gap-4 m-6 ">
-            <button className="flex items-center  h-3/4 p-4 rounded-full  h-[4rem] border-2 border-[white] text-white p-2 shrink">
-              <img src={hand} className="h-12 pr-4" alt="alo1" />
+          <div className="grid grid-cols-2   justify-evenly w-full md:w-[40rem]    ">
+            <button className=" m-4 p-2 border-box flex items-center justify-evenly w-[15rem]  rounded-full  border-2 border-[white] text-white  shrink">
+              <img src={hand} className=" "  alt="alo1" />
               Enrol Now
             </button>
-            <button className="flex items-center  h-3/4 p-4 rounded-full  h-[4rem] border-2 border-[white] text-white p-2 shrink">
-              <img src={hand2} className="h-12 pr-4" alt="alo12" />
+            <button className=" m-4 p-2 border-box flex items-center justify-evenly w-[15rem]  rounded-full  border-2 border-[white] text-white  shrink">
+              <img src={hand2} className=" " alt="alo12" />
               Enrol Now
             </button>
-            <button className="flex items-center  h-3/4 p-4 rounded-full  h-[4rem] border-2 border-[white] text-white p-2 shrink">
-              <img src={hand2} className="h-12 pr-4" alt="alo13" />
+            <button className=" m-4 p-2 border-box flex items-center justify-evenly w-[15rem]  rounded-full  border-2 border-[white] text-white  shrink">
+              <img src={hand2} className=" " alt="alo13" />
               Enrol Now
             </button>
-            <button className="flex items-center  h-3/4 p-4 rounded-full  h-[4rem] border-2 border-[white] text-white p-2 shrink">
-              <img src={hand4} className="h-12 pr-4" alt="alo14" />
+            <button className="  m-4 p-2 border-box flex items-center justify-evenly w-[15rem]  rounded-full  border-2 border-[white] text-white  shrink">
+              <img src={hand4} className=" " alt="alo14" />
               Enrol Now
             </button>
           </div>
           <div>
             <img
-              className="w-full mx-auto lg:w-1/2 lg:absolute top-16 right-16"
+              className="w-full h-[25rem] mx-auto lg:w-1/2 lg:absolute top-16 right-16"
               src={girl}
               alt="shopping"
             />
@@ -127,6 +125,7 @@ const Home = () => {
       <Faqs />
       <Course/>
       <Advertise/>
+
     </div>
   );
 };

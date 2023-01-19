@@ -24,7 +24,7 @@ const Programs = () => {
       <div>
         <div className=" flex flex-col mx-[4rem] mt-[2rem] ">
           <p className="text-purple-600 text-2xl">Scope of Program</p>
-          <p className="font-semibold leading-[3rem] text-2xl xl:text-[3rem]">
+          <p className="font-semibold leading-[3rem] text-2xl xl:text-[3rem] xl:w-1/2">
             Here is the list of prgram that will be explore during the program
           </p>
         </div>
@@ -33,15 +33,15 @@ const Programs = () => {
         </div>
       </div>
       {/* article */}
-      <article className="flex flex-wrap items-center justify-evenly  gap-x-2 gap-y-8 mx-4 h-22  ">
-        <div className=" bg-white w-[23rem] rounded-3xl shadow-[0px_11px_35px_4px_rgba(0,0,0,0.22)]  hover:scale-110 p-4 ">
+      <article className="flex flex-wrap md:grid md:grid-cols-2 xl:grid-cols-3 items-center justify-evenly  xl:gap-x-4  gap-y-8 xl:mx-4  h-22  ">
+        <div className=" bg-white px-12 md:px-4 mx-8 md:mx-2 py-12 rounded-3xl shadow-[0px_11px_35px_4px_rgba(0,0,0,0.22)]  hover:scale-110  ">
           <p className="py-2 text-black font-semibold text-xl">
             Frontend Development
           </p>
           <div className="py-4 flex">
-            <img src={html} alt="html" />
-            <img src={css} alt="css" />
-            <img src={javascript} alt="javascript" />
+            <img className="w-[3rem] " src={html} alt="html" />
+            <img className="w-[3rem] " src={css} alt="css" />
+            <img className="w-[2.9rem] " src={javascript} alt="javascript" />
           </div>
           <p>
             This track deals with the aspect of your application that the users
@@ -50,15 +50,15 @@ const Programs = () => {
           </p>
         </div>
         {/* program2 */}
-        <div className=" bg-white w-[23rem] rounded-3xl shadow-[0px_11px_35px_4px_rgba(0,0,0,0.22)]  hover:scale-110 p-4">
+        <div className=" bg-white px-12 md:px-4 mx-8 md:mx-2 py-12 rounded-3xl shadow-[0px_11px_35px_4px_rgba(0,0,0,0.22)]  hover:scale-110 ">
           <p className="py-2 text-black font-semibold text-xl">
             Backend Development
           </p>
           <div className="py-4 flex">
-            <img className="w-[3rem] h-[3rem] px-2" src={php2} alt="html" />
-            <img className="w-[3rem] h-[3rem] px-2" src={python} alt="css" />
+            <img className="w-[rem] h-[3rem] px-2" src={php2} alt="html" />
+            <img className="w-[4rem] h-[3rem] px-2" src={python} alt="css" />
             <img
-              className="w-[3rem] h-[3rem] px-2"
+              className="w-[4rem] h-[3rem] px-2"
               src={javascript}
               alt="javascript"
             />
@@ -70,13 +70,13 @@ const Programs = () => {
           </p>
         </div>
         {/* program3 */}
-        <div className="bg-white w-[23rem]  rounded-3xl shadow-[0px_11px_35px_4px_rgba(0,0,0,0.22)]  hover:scale-110 p-4">
+        <div className="bg-white px-12 md:px-4 mx-8 md:mx-2 py-12  rounded-3xl shadow-[0px_11px_35px_4px_rgba(0,0,0,0.22)]  hover:scale-110 ">
           <p className="py-2 text-black font-semibold text-xl">
             Frontend Development
           </p>
           <div className="py-4 flex">
-            <img className="w-[3rem] h-[3rem] px-2" src={adobe} alt="html" />
-            <img className="w-[3rem] h-[3rem] px-2" src={figma} alt="css" />
+            <img className="w-[4rem] h-[3rem] px-2" src={adobe} alt="html" />
+            <img className="w-[6rem] h-[3rem] px-2" src={figma} alt="css" />
           </div>
           <p>
             This track deals with the aspect of your application that the users
@@ -85,13 +85,13 @@ const Programs = () => {
           </p>
         </div>
         {/* program4 */}
-        <div className="bg-white w-[23rem]  rounded-3xl shadow-[0px_11px_35px_4px_rgba(0,0,0,0.22)]  hover:scale-110 p-4">
+        <div className="bg-white px-12 md:px-4 mx-8 md:mx-2 py-12  rounded-3xl shadow-[0px_11px_35px_4px_rgba(0,0,0,0.22)]  hover:scale-110 ">
           <p className="py-2 text-black font-semibold text-xl">
             Frontend Development
           </p>
           <div className="py-4 flex">
-            <img className="w-[3rem] h-[3rem] px-2" src={ubuntu} alt="html" />
-            <img className="w-[3rem] h-[3rem] px-2" src={Bashlogo} alt="css" />
+            <img className="w-[5rem] h-[3rem] px-2" src={ubuntu} alt="html" />
+            <img className="w-[4rem] h-[3rem] px-2" src={Bashlogo} alt="css" />
             <img
               className="w-[3rem] h-[3rem] px-2"
               src={aws}
@@ -105,7 +105,7 @@ const Programs = () => {
           </p>
         </div>
         {/* program5 */}
-        <div className="bg-white w-[23rem]  rounded-3xl shadow-[0px_11px_35px_4px_rgba(0,0,0,0.22)]  hover:scale-110 p-4">
+        <div className="bg-white px-12 md:px-4 mx-8 md:mx-2 py-12  rounded-3xl shadow-[0px_11px_35px_4px_rgba(0,0,0,0.22)]  hover:scale-110 ">
           <p className="py-2 text-black font-semibold text-xl">
             Frontend Development
           </p>
@@ -118,7 +118,7 @@ const Programs = () => {
               alt="javascript"
             />
             <img
-              className="w-[3rem] h-[3rem] px-2"
+              className="w-[4rem] h-[3rem] px-2"
               src={python}
               alt="fullstack"
             />
@@ -130,15 +130,15 @@ const Programs = () => {
           </p>
         </div>
         {/* program6 */}
-        <div className="bg-white w-[23rem]  rounded-3xl shadow-[0px_11px_35px_4px_rgba(0,0,0,0.22)]  hover:scale-110 p-4">
+        <div className="bg-white px-12 md:px-4 mx-8 md:mx-2 py-12  rounded-3xl shadow-[0px_11px_35px_4px_rgba(0,0,0,0.22)]  hover:scale-110 ">
           <p className="py-2 text-black font-semibold text-xl">
             Frontend Development
           </p>
           <div className="py-4 flex">
-            <img className="w-[3rem] h-[3rem] px-2" src={laravel} alt="html" />
-            <img className="w-[3rem] h-[3rem] px-2" src={react} alt="css" />
+            <img className="w-[4rem]  px-2" src={laravel} alt="html" />
+            <img className="w-[4rem]  px-2" src={react} alt="css" />
             <img
-              className="w-[3rem] h-[3rem] px-2"
+              className="w-[4rem] px-2"
               src={Django}
               alt="javascript"
             />

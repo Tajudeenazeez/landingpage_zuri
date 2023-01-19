@@ -16,58 +16,58 @@ const Faqs = () => {
             <img src={wire2} className='' alt='wire'/>
             <h2 className='py-2 text-yellow-600 text-2xl'> Got Questions ?</h2>
             <h1 className='py-2 font-semibold text-3xl'>Frequently Asked Questions</h1>
-            <section className='border-2 border-[#3a235922]  md:w-1/2 m-2 w-full '>
+            <section className='border-2 border-[#3a235922]  lg:w-3/4 m-2 w-full '>
                 <div className={`h-20 mt-4 p-2`} onClick={() => {setToggle1(!toggle1)}}>
                    <div className={` flex items-center justify-between`}>
-                        <p className='font-semibold md:text-xl'>Would I have to pay to enroll for the training?</p>
+                        <p className='font-semibold px-4 md:text-xl'>Would I have to pay to enroll for the training?</p>
                         <FaPlus className={`${toggle1? '-rotate-90 ease-in-out  duration-300' : 'rotate-90 ease-in-out  duration-300'}`} />
                    </div>
                     <p className={`${toggle1 ? "block" : "hidden"}`}>No, the program is completely free thanks to Ingressive For Good</p>
                 </div>
             </section>
-            <section className='border-2 border-[#3a235922]  md:w-1/2 m-2 w-full '>
+            <section className='border-2 border-[#3a235922]  lg:w-3/4 m-2 w-full '>
                 <div className={`h-20 mt-4 p-2`} onClick={() => {setToggle2(!toggle2)}}>
                    <div className={` flex items-center justify-between`}>
-                        <p className='font-semibold md:text-xl'>Would I have to pay to enroll for the training?</p>
+                        <p className='font-semibold px-4 md:text-xl'>Would I have to pay to enroll for the training?</p>
                         <FaPlus className={`${toggle2? '-rotate-90 ease-in-out  duration-300' : 'rotate-90 ease-in-out  duration-300'}`} />
                    </div>
                     <p className={`${toggle2 ? "block" : "hidden"}`}>No, the program is completely free thanks to Ingressive For Good</p>
                 </div>
             </section>
-            <section className='border-2 border-[#3a235922]  md:w-1/2 m-2 w-full '>
+            <section className='border-2 border-[#3a235922]  lg:w-3/4 m-2 w-full '>
                 <div className={`h-20 mt-4 p-2`} onClick={() => {setToggle3(!toggle3)}}>
                    <div className={` flex items-center justify-between`}>
-                        <p className='font-semibold md:text-xl'>Would I have to pay to enroll for the training?</p>
+                        <p className='font-semibold px-4 md:text-xl'>Would I have to pay to enroll for the training?</p>
                         <FaPlus className={`${toggle3? '-rotate-90 ease-in-out  duration-300' : 'rotate-90 ease-in-out  duration-300'}`} />
                    </div>
                     <p className={`${toggle3 ? "block" : "hidden"}`}>No, the program is completely free thanks to Ingressive For Good</p>
                 </div>
-            </section>    <section className='border-2 border-[#3a235922]  md:w-1/2 m-2 w-full '>
+            </section>    <section className='border-2 border-[#3a235922]  lg:w-3/4 m-2 w-full '>
                 <div className={`h-20 mt-4 p-2`} onClick={() => {setToggle4(!toggle4)}}>
                    <div className={` flex items-center justify-between`}>
-                        <p className='font-semibold md:text-xl'>Would I have to pay to enroll for the training?</p>
+                        <p className='font-semibold px-4 md:text-xl'>Would I have to pay to enroll for the training?</p>
                         <FaPlus className={`${toggle4? '-rotate-90 ease-in-out  duration-300' : 'rotate-90 ease-in-out  duration-300'}`} />
                    </div>
                     <p className={`${toggle4 ? "block" : "hidden"}`}>No, the program is completely free thanks to Ingressive For Good</p>
                 </div>
-            </section>    <section className='border-2 border-[#3a235922]  md:w-1/2 m-2 w-full '>
+            </section>    <section className='border-2 border-[#3a235922]  lg:w-3/4 m-2 w-full '>
                 <div className={`h-20 mt-4 p-2`} onClick={() => {setToggle5(!toggle5)}}>
                    <div className={` flex items-center justify-between`}>
-                        <p className='font-semibold md:text-xl'>Would I have to pay to enroll for the training?</p>
+                        <p className='font-semibold px-4 md:text-xl'>Would I have to pay to enroll for the training?</p>
                         <FaPlus className={`${toggle5? '-rotate-90 ease-in-out  duration-300' : 'rotate-90 ease-in-out  duration-300'}`} />
                    </div>
                     <p className={`${toggle5 ? "block" : "hidden"}`}>No, the program is completely free thanks to Ingressive For Good</p>
                 </div>
-            </section>    <section className='border-2 border-[#3a235922]  md:w-1/2 m-2 w-full '>
+            </section>    <section className='border-2 border-[#3a235922]  lg:w-3/4 m-2 w-full '>
                 <div className={`h-20 mt-4 p-2`} onClick={() => {setToggle6(!toggle6)}}>
                    <div className={` flex items-center justify-between`}>
-                        <p className='font-semibold md:text-xl'>Would I have to pay to enroll for the training?</p>
+                        <p className='font-semibold px-4 md:text-xl'>Would I have to pay to enroll for the training?</p>
                         <FaPlus className={`${toggle6? '-rotate-90 ease-in-out  duration-300' : 'rotate-90 ease-in-out  duration-300'}`} />
                    </div>
                     <p className={`${toggle6 ? "block" : "hidden"}`}>No, the program is completely free thanks to Ingressive For Good</p>
                 </div>
             </section>
-            <div className='flex justify-center items-center'>
+            <div className='flex justify-center items-center mt-8'>
                 <p className='text-xl mx-2'>Still got Questions?</p>
                 <button className=" flex items-center w-44 h-11 rounded-full bg-[#3a2350] text-white p-2 shrink-0">
                 <FaTwitter className="mx-2" />
